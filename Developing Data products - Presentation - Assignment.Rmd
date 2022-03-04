@@ -1,0 +1,65 @@
+---
+title: "Developing Data Products - Assignment"
+author: "Boyd C"
+date: "04/03/2022"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Innovating Concept for a Contemporary Event
+
+Covid-19 Impacted countries all over the world  
+
+Countries are reeling under economic impact  
+
+Here is a glimpse of this pandemic data  
+
+## Unique Interactive Visual Experience
+
+See the data from Top 10 infected countries  
+
+See 4 different graphs  
+- Confirmed Cases  
+- Death  
+- Case Fatality  
+- Death per 100,000  
+
+View the data used in the plot too
+
+## User decides
+
+User can select any one of the 10 countries from the list  
+
+Select also what the user wants to see (4 options)  
+
+Once Confirmed  
+
+- Plot shows the progression for every month  
+- The tend line (linear regression) shows the trend  
+- The table below shows the data used  
+
+
+## Data Collection and Preparation
+
+Covid-19 data collected from April 2020  
+
+Calculated monthly average  
+
+Monthly Average is used in the plot and display  
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+Data Source: https://coronavirus.jhu.edu/map.html
+
+
+
