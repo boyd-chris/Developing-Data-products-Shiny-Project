@@ -1,6 +1,5 @@
 library(shiny)
 
-# Define server logic required to draw a histogram
 shinyServer(function(input, output) {
   suppressPackageStartupMessages(library(scales))
   options(scipen = 999)
@@ -54,7 +53,6 @@ shinyServer(function(input, output) {
                "Death" = Death[,names(Death) == CountrySel],
                "Case Fatality" = Case_Fatal_Orig[,names(Case_Fatal_Orig) == CountrySel],
                 "Death per 100,000" = Deathper100[,names(Deathper100) == CountrySel])
-#    names(Table1) = c("Month & Year", "Confirmed Cases", "Death", "Case Fatality", "Death per 100,000")
   })
 })
 
